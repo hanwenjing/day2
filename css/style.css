@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+body, html, .wrap {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: .32rem;
+  background: #818D9B; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  height: 1rem;
+  width: 100%;
+  background: #393A3F;
+  display: flex;
+  line-height: 1rem;
+  padding: 0 .2rem; }
+  .header a {
+    flex: 1;
+    color: #fff;
+    font-size: .4rem; }
+    .header a:nth-child(2) {
+      flex: 3; }
+    .header a:nth-child(3) {
+      margin-top: .2rem; }
+      .header a:nth-child(3) span {
+        height: 0.1rem;
+        width: .1rem;
+        background: #fff;
+        display: block;
+        border-radius: 50%;
+        margin-top: .1rem;
+        margin-left: .7rem; }
+
+.section {
+  height: 100%;
+  width: 100%; }
+
+.box {
+  background: #ffffff;
+  border-radius: .3rem;
+  height: 85%;
+  width: 85%;
+  margin: auto;
+  margin-top: .4rem; }
+
+.top {
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: .3rem; }
+  .top img {
+    height: 1.5rem;
+    width: 2rem;
+    margin: .4rem 0; }
+  .top p {
+    font-size: .4rem; }
+
+.list {
+  margin-top: 1.5rem;
+  height: auto;
+  width: 100%; }
+  .list li {
+    height: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: .3rem; }
+    .list li input {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      height: 1rem;
+      width: 100%;
+      padding: .5rem; }
+    .list li img {
+      position: absolute;
+      left: 0;
+      top: 0.3rem;
+      height: 0.6rem;
+      width: .4rem; }
+
+.btn {
+  height: 1rem;
+  width: 90%;
+  background: #2FBA77;
+  color: #fff;
+  border: none;
+  margin-top: .4rem;
+  margin-left: .4rem; }
+
+/*# sourceMappingURL=style.css.map */
